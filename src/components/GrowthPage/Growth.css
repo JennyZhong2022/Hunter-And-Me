@@ -1,0 +1,33 @@
+.growthPage {
+  background-color: #f7f5f2;
+  width: 100%;
+}
+
+.growthPageGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+/* Media Queries to adjust GridItem height */
+/* Class added to GridItem in JSX */
+/* 
+@media screen and (max-width: 600px) {
+  .gridItem {
+    
+    height: 43.75rem !important;  /* Override Chakra-UI height
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .gridItem {
+    height: 50rem !important;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .gridItem {
+    height: 60rem !important;
+  }
+} */

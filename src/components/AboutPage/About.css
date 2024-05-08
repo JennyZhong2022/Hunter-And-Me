@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap");
+
+.aboutPage {
+  background-color: #ebe7e0;
+}
+
+.bigH {
+  font-size: 5rem;
+  color: #1c2528;
+  margin: 0 0.5rem 2rem 0.5rem;
+  font-family: "Sorts Mill Goudy";
+  line-height: 1;
+  padding-top: 5rem;
+  font-weight: 400;
+}
+
+.leftContainer {
+  position: relative;
+}
+
+.leftContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -2rem;
+  width: 0.125rem;
+  background-color: gray;
+}
+
+.leftContainer.hideDiver::after {
+  display: none;
+}
+
+.leftContainer,
+.aboutPageTextRight {
+  font-size: 1.2rem;
+}
+
+.aboutPageTextRight p:first-child {
+  margin-top: 0;
+}
+
+.aboutPageTextRight p,
+.aboutPageTextLeft {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem; /* Start with a standard font size for mobile */
+  margin: 1.5rem 0;
+}
+
+.aboutPageTextLeft {
+  font-weight: 800;
+}
+@media screen and (max-width: 1024px) {
+  .bigH {
+    font-size: 3rem;
+  }
+
+  .leftContainer,
+  .aboutPageTextRight {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .bigH {
+    font-size: 2rem;
+  }
+
+  .leftContainer,
+  .aboutPageTextRight {
+    font-size: 0.8rem;
+  }
+
+  .aboutPageContent {
+    margin: 0 1rem;
+  }
+}

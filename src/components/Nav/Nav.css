@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  height: 4rem;
+  background-color: #242027;
+  color: white;
+  align-items: center;
+  font: 1rem sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.leftText {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.middleText {
+  max-width: 37.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  width: 6.25rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  .middleText {
+    display: none;
+  }
+  .links {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .leftText {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,64 @@
+.contactPage {
+  background-color: #f7f5f2;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.forms .MuiTextField-root {
+  width: 100%;
+  width: 25rem;
+  margin-bottom: 0.625rem;
+}
+
+.emailStatusMessage {
+  color: rgb(0, 128, 0);
+  text-align: center;
+  margin-bottom: 0.625rem;
+  font-size: larger;
+}
+
+.button-container {
+  margin-left: 18rem;
+}
+
+.phoneContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+  .forms .MuiTextField-root {
+    width: 90%;
+    margin-bottom: 0.625rem;
+  }
+  .leftContainer {
+    padding: 0 2.5rem;
+  }
+}
+
+/* For medium screens */
+@media (max-width: 1024px) {
+  .button-container {
+    margin-left: 12rem;
+  }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  .button-container {
+    margin-left: 6rem;
+  }
+}
+
+/* For extra-small screens */
+@media (max-width: 480px) {
+  .button-container {
+    margin-left: 3rem;
+  }
+}

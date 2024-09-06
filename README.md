@@ -1,7 +1,7 @@
 # Project: [Hunter-And-Me](https://hunter-and-me.onrender.com/)
 
 I was honored to be selected to participate in a web development training focused on React development, which was hosted by the Victorian Government's Digital Jobs program.
-I undertook and successfully completed a solo project within 1 week, Hunter’s Garden.
+I undertook and successfully completed a solo project within 1 week after course, Hunter’s Garden.
 
 ## Description
 

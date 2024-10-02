@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.153c6a9d.css",
+    "main.js": "/static/js/main.7aa72bf2.js",
+    "static/media/bunningsFirst.jpeg": "/static/media/bunningsFirst.d081951c19609c0d2cac.jpeg",
+    "static/media/dogWalk.jpg": "/static/media/dogWalk.cbc33ab25dd57076abe8.jpg",
+    "static/media/cityFirstTime.jpeg": "/static/media/cityFirstTime.fc5592480dc7c00c5d91.jpeg",
+    "static/media/dogPlay2.jpg": "/static/media/dogPlay2.1a1de388ae4808db5072.jpg",
+    "static/media/birthdayDogs.jpg": "/static/media/birthdayDogs.7bb206698ae22c943529.jpg",
+    "static/media/dogPlay.jpg": "/static/media/dogPlay.90382c249a5c1760fda3.jpg",
+    "static/media/sixthBirthday.jpg": "/static/media/sixthBirthday.8d53026d8a08f5d5075e.jpg",
+    "static/media/graduate.jpeg": "/static/media/graduate.619226639f55f1272026.jpeg",
+    "static/media/hunterHomePage.jpeg": "/static/media/hunterHomePage.619226639f55f1272026.jpeg",
+    "static/media/babyHunter.jpeg": "/static/media/babyHunter.460644a83b052d5947ca.jpeg",
+    "static/media/training3.jpeg": "/static/media/training3.8882936b8911caacba6d.jpeg",
+    "index.html": "/index.html",
+    "main.153c6a9d.css.map": "/static/css/main.153c6a9d.css.map",
+    "main.7aa72bf2.js.map": "/static/js/main.7aa72bf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.153c6a9d.css",
+    "static/js/main.7aa72bf2.js"
+  ]
+}
